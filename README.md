@@ -44,7 +44,7 @@ Requirements:
 
 ### Usage
 
-1. Run the `pass.py` script using Python3:
+1. Run the `wifibruter.py` script using Python3:
     ```bash
     sudo python3 wifibruter.py
     ```
@@ -54,7 +54,7 @@ Requirements:
 
 ### Limitations
 
-1. **No Threading Used**: This python script is a bit slow in cracking wifi passwords because we can't access a single NIC For Multiple Threads Of Connecting To a Network.
+1. **No Threading Used**: This python script is a bit slow in cracking wifi passwords because we can't access a single NIC For Multiple Threads for Connecting To a Network, Means We Can Connect To More than one WiFi at a time.
 
 2. **Sudo Access**: To Connect to a WiFi Network We Must Become Root Cause we are accessing Our Hardware of the Device and as a Normal user We need To authenticate Again N Again.
 
