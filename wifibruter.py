@@ -74,7 +74,7 @@ class Pywifi:
                         print(f"Password {j} is not Correct For WiFi {i}")
                         print()
                     sleep(1)
-    def trypasssingle(self,ssidname,verbosity):
+    def trypass_single(self,ssidname,verbosity):
         # Trying Brute Force on a Single WiFi AP With Password List
         verbose = verbosity.lower() == "y"
         # Checking WiFi AP is Available or Not In SSID list
@@ -123,7 +123,7 @@ class Pywifi:
         self.ssid()
         self.logo()
         print()
-        print("Welcome To Python Wifi Cracker")
+        print("Welcome To Python Wifi Cracker Made By --DeadDroid")
         print("Select A Option... ")
         print("""
         1) Show WiFi List
@@ -176,7 +176,7 @@ class Pywifi:
                 sys.exit(1)
             self.passwd(pasize)
             sleep(1)
-            self.trypasssingle(ssidname,verbosity)
+            self.trypass_single(ssidname,verbosity)
             if not self.passdict:
                 print("\nSorry Boss ! No Password Found <>_<>")
             else:
