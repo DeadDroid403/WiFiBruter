@@ -11,7 +11,7 @@ Introduction:
 
 This documentation outlines the usage and implementation details of a Python WiFiBruter project. The WiFiBruter Uses your Internal WiFi Adapter to Brute Force WiFi in Runtime. You Can Run This On a Single WiFi and Also on All WiFi Networks Around Your Area.
 
-Features:
+## Features:
 
 1. Multiple WiFi support: you can use this script on a single wifi or on every wifi in your area.
 
@@ -19,10 +19,10 @@ Features:
 
 3. Verbosity: We Can Choose if we want a Verbose Output Or Not.
 
-4. Changable Password Length: We Can Choose How Big Password List We want to use.
+4. Changable Passwords List Length: We Can Choose How Big Password List You want to use.
 
 
-Requirements:
+## Requirements:
 
    1. Python 3.x.
    2. Must Be run as Root or With Sudo.
